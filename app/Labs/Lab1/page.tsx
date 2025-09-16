@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default function Lab1() {
   return (
     <div id="wd-lab1">
@@ -174,7 +176,7 @@ export default function Lab1() {
           <label htmlFor="wd-text-fields-password">Password:</label>
           <input
             type="password"
-            value="123@#$asd"
+            defaultValue="123@#$asd"
             id="wd-text-fields-password"
           />
           <br />
@@ -185,30 +187,31 @@ export default function Lab1() {
           <input
             type="text"
             placeholder="Doe"
-            value="Wonderland"
+            defaultValue="Wonderland"
             title="The last name"
             id="wd-text-fields-last-name"
           />
           <h5>Text boxes</h5>
           <label>Biography:</label>
           <br />
-          <textarea id="wd-textarea" cols={30} rows={10}>
+          <textarea
+            id="wd-textarea"
+            cols={30}
+            rows={10}
+            defaultValue="
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </textarea>
+            culpa qui officia deserunt mollit anim id est laborum."
+          ></textarea>
           <h5 id="wd-buttons">Buttons</h5>
-          <button
-            type="button"
-            // onClick={() => alert("Life is Good!")}
-            id="wd-all-good"
-          >
-            Hello World!
-          </button>
+          <Button />
+          <br />
+          <br />
+          <input type="file" id="wd-file-upload" />
           <h5 id="wd-radio-buttons">Radio buttons</h5>
           <label>Favorite movie genre:</label>
           <br />
@@ -273,7 +276,7 @@ export default function Lab1() {
           <label htmlFor="wd-text-fields-salary-start"> Starting salary:</label>
           <input
             type="number"
-            value="100000"
+            defaultValue="100000"
             placeholder="1000"
             id="wd-text-fields-salary-start"
           />

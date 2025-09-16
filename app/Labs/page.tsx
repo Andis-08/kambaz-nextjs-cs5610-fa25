@@ -2,6 +2,17 @@ import Link from "next/link";
 export default function Labs() {
   return (
     <div id="wd-labs">
+      <strong>Name: </strong> Anirudh Nitin Bakare
+      <br />
+      <strong>Course: </strong> CS5610 - Web Development
+      <br />
+      <strong>Section: </strong> 05
+      <br />
+      <strong>Source Code: </strong>{" "}
+      <a href="https://github.com/Andis-08/kambaz-nextjs-cs5610-fa25">
+        GitHub Repository
+      </a>
+      <br />
       <h1>Labs</h1>
       <ul>
         <li>
@@ -17,6 +28,11 @@ export default function Labs() {
         <li>
           <Link href="/Labs/Lab3" id="wd-lab3-link">
             Lab 3: JavaScript Fundamentals
+          </Link>
+        </li>
+        <li>
+          <Link href="/" id="wd-kambaz-link">
+            Kambaz
           </Link>
         </li>
       </ul>
