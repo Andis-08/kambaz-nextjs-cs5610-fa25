@@ -38,6 +38,7 @@ export default function AssignmentEditor() {
               <option>ASSIGNMENTS</option>
               <option>QUIZZES</option>
               <option>EXAMS</option>
+              <option>PROJECTS</option>
             </select>
           </td>
         </tr>
