@@ -1,7 +1,6 @@
 import BackgroundColors from "./BackgroundColors";
 import ForegroundColors from "./ForegroundColors";
 import Borders from "./Borders";
-import "./index.css";
 import Padding from "./Padding";
 import Margins from "./Margins";
 import Corners from "./Corners";
@@ -11,6 +10,9 @@ import Zindex from "./Zindex";
 import Float from "./Float";
 import GridLayout from "./GridLayout";
 import Flex from "./Flex";
+import ReactIcons from "./ReactIcons";
+import "./index.css";
+
 export default function Lab2() {
   return (
     <div id="wd-lab2">
@@ -79,6 +81,7 @@ export default function Lab2() {
       <Float />
       <GridLayout />
       <Flex />
+      <ReactIcons />
     </div>
   );
 }
