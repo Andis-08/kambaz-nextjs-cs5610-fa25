@@ -1,6 +1,6 @@
 "use client";
 
-import { ListGroup } from "react-bootstrap";
+import { Container, ListGroup } from "react-bootstrap";
 import ModulesControls from "./ModulesControls";
 import { BsGripVertical } from "react-icons/bs";
 import LessonControlButtons from "./LessonControlButtons";
@@ -8,7 +8,7 @@ import ModuleControlButtons from "./ModuleControlButtons";
 
 export default function Modules() {
   return (
-    <div>
+    <Container>
       <ModulesControls />
       <br />
       <br />
@@ -93,6 +93,6 @@ export default function Modules() {
           </ListGroup>
         </ListGroup.Item>
       </ListGroup>
-    </div>
+    </Container>
   );
 }

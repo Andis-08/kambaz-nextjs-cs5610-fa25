@@ -1,8 +1,8 @@
-import { Table } from "react-bootstrap";
+import { Container, Table } from "react-bootstrap";
 import { FaUserCircle } from "react-icons/fa";
 export default function PeopleTable() {
   return (
-    <div id="wd-people-table">
+    <Container id="wd-people-table">
       <Table striped>
         <thead>
           <tr>
@@ -27,7 +27,6 @@ export default function PeopleTable() {
             <td className="wd-last-activity">2020-10-01</td>
             <td className="wd-total-activity">10:21:32</td>
           </tr>
-          {/* Add at least 3 more users such as Bruce Wayne, Steve Rogers, and Natasha Romanoff */}
           <tr>
             <td className="wd-full-name text-nowrap">
               <FaUserCircle className="me-2 fs-1 text-secondary" />
@@ -78,6 +77,6 @@ export default function PeopleTable() {
           </tr>
         </tbody>
       </Table>
-    </div>
+    </Container>
   );
 }
