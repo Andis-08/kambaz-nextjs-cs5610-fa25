@@ -53,7 +53,7 @@ export default function KambazNavigation() {
         >
           <BiBook className="fs-1 text-danger" />
           <br />
-          Course
+          <span className="text-white">Course</span>
         </Link>
       </ListGroup.Item>
       <ListGroup.Item className="border-0 bg-black text-center">
@@ -64,7 +64,7 @@ export default function KambazNavigation() {
         >
           <BiCalendar className="fs-1 text-danger" />
           <br />
-          Calendar
+          <span className="text-white">Calendar</span>
         </Link>
       </ListGroup.Item>
       <ListGroup.Item className="border-0 bg-black text-center">
@@ -75,7 +75,7 @@ export default function KambazNavigation() {
         >
           <HiMiniInboxArrowDown className="fs-1 text-danger" />
           <br />
-          Inbox
+          <span className="text-white">Inbox</span>
         </Link>
       </ListGroup.Item>
       <ListGroup.Item className="border-0 bg-black text-center">
@@ -86,7 +86,7 @@ export default function KambazNavigation() {
         >
           <IoIosCodeWorking className="fs-1 text-danger" />
           <br />
-          Labs
+          <span className="text-white">Labs</span>
         </Link>
       </ListGroup.Item>
     </ListGroup>

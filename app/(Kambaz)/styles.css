@@ -16,6 +16,9 @@ body * {
 .wd-dashboard-course {
   width: 300px;
 }
+#wd-dashboard-title {
+  font-size: larger;
+}
 .wd-dashboard-course-description {
   height: 100px;
 }

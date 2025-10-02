@@ -7,6 +7,7 @@ import {
 } from "react-bootstrap";
 import { FaPlus } from "react-icons/fa6";
 import GreenCheckmark from "./GreenCheckmark";
+import { IoBanOutline } from "react-icons/io5";
 export default function ModulesControls() {
   return (
     <div id="wd-modules-controls" className="text-nowrap">
@@ -34,10 +35,10 @@ export default function ModulesControls() {
             <GreenCheckmark /> Publish modules only
           </DropdownItem>
           <DropdownItem id="wd-unpublish-all-modules-and-items">
-            <GreenCheckmark /> Unpublish all modules and items
+            <IoBanOutline /> Unpublish all modules and items
           </DropdownItem>
           <DropdownItem id="wd-unpublish-modules-only">
-            <GreenCheckmark /> Unpublish modules only
+            <IoBanOutline /> Unpublish modules only
           </DropdownItem>
         </DropdownMenu>
       </Dropdown>
