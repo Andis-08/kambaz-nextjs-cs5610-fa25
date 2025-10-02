@@ -9,7 +9,10 @@ export default function Labs() {
       <strong>Section: </strong> 05
       <br />
       <strong>Source Code: </strong>{" "}
-      <a href="https://github.com/Andis-08/kambaz-nextjs-cs5610-fa25">
+      <a
+        href="https://github.com/Andis-08/kambaz-nextjs-cs5610-fa25"
+        id="wd-github"
+      >
         GitHub Repository
       </a>
       <br />
