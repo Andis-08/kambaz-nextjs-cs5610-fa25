@@ -1,8 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import path from "path";
 import { ListGroup } from "react-bootstrap";
 import { AiOutlineDashboard } from "react-icons/ai";
 import { BiBook, BiCalendar } from "react-icons/bi";
