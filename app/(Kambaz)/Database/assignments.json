@@ -94,5 +94,170 @@
         "points": 100,
         "modules": ["M1", "M2"],
         "description": "This exam tests your knowledge of systems engineering principles and practices in aerospace applications ."
+    },
+    {
+        "_id": "A401",
+        "title": "Organic Synthesis Assignment",
+        "course": "RS104",
+        "availableDate": "2023-10-01",
+        "dueDate": "2023-10-15",
+        "availableUntil": "2023-10-31",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This assignment focuses on the synthesis of organic compounds, including reaction mechanisms and laboratory techniques."
+    },
+    {
+        "_id": "A402",
+        "title": "Spectroscopy Analysis",
+        "course": "RS104",
+        "availableDate": "2023-10-14",
+        "dueDate": "2023-10-28",
+        "availableUntil": "2023-10-31",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This assignment involves the analysis of organic compounds using spectroscopic methods, including NMR and IR spectroscopy."
+    },
+    {
+        "_id": "A403",
+        "title": "Reaction Mechanisms Quiz",
+        "course": "RS104",
+        "availableDate": "2023-10-15",
+        "dueDate": "2023-10-29",
+        "availableUntil": "2023-10-31",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This quiz tests your knowledge of organic reaction mechanisms and their applications."
+    },
+    {
+        "_id": "A501",
+        "title": "Inorganic Chemistry Assignment",
+        "course": "RS105",
+        "availableDate": "2023-10-01",
+        "dueDate": "2023-10-15",
+        "availableUntil": "2023-10-31",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This assignment focuses on the properties and reactions of inorganic compounds, including coordination chemistry and bonding theories."
+    },
+    {
+        "_id": "A502",
+        "title": "Crystal Field Theory Quiz",
+        "course": "RS105",
+        "availableDate": "2023-10-14",
+        "dueDate": "2023-10-28",
+        "availableUntil": "2023-10-31",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This quiz tests your knowledge of crystal field theory and its applications in inorganic chemistry."
+    },
+    {
+        "_id": "A503",
+        "title": "Synthesis Lab Report",
+        "course": "RS105",
+        "availableDate": "2023-10-15",
+        "dueDate": "2023-10-29",
+        "availableUntil": "2023-10-31",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This lab report involves the synthesis and analysis of inorganic compounds, including experimental techniques and data interpretation."
+    },
+    {
+        "_id": "A601",
+        "title": "Thermodynamics Assignment",
+        "course": "RS106",
+        "availableDate": "2023-10-01",
+        "dueDate": "2023-10-15",
+        "availableUntil": "2023-10-31",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This assignment focuses on the principles of thermodynamics, including energy transfer and chemical equilibria."
+    },
+    {
+        "_id": "A602",
+        "title": "Kinetics Quiz",
+        "course": "RS106",
+        "availableDate": "2023-10-14",
+        "dueDate": "2023-10-28",
+        "availableUntil": "2023-10-31",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This quiz tests your knowledge of chemical kinetics and reaction rate theories."
+    },
+    {
+        "_id": "A603",
+        "title": "Spectroscopy Lab Report",
+        "course": "RS106",
+        "availableDate": "2023-10-15",
+        "dueDate": "2023-10-29",
+        "availableUntil": "2023-10-31",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This lab report involves the use of spectroscopic techniques to analyze chemical compounds, including data collection and interpretation."
+    },
+    {
+        "_id": "A701",
+        "title": "Basic Lithography Assignment",
+        "course": "RS107",
+        "availableDate": "2023-11-01",
+        "dueDate": "2023-11-15",
+        "availableUntil": "2023-11-30",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This assignment introduces the principles of lithography, including the creation and analysis of lithographic prints."
+    },
+    {
+        "_id": "A702",
+        "title": "Etching Techniques Quiz",
+        "course": "RS107",
+        "availableDate": "2023-11-14",
+        "dueDate": "2023-11-28",
+        "availableUntil": "2023-11-30",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This quiz tests your knowledge of various etching techniques used in lithography, including chemical and physical methods."
+    },
+    {
+        "_id": "A703",
+        "title": "Advanced Lithography Project",
+        "course": "RS107",
+        "availableDate": "2023-11-15",
+        "dueDate": "2023-11-29",
+        "availableUntil": "2023-11-30",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This project involves the application of advanced lithographic techniques to create complex prints, including design and execution."
+    },
+    {
+        "_id": "A801",
+        "title": "Genetics Assignment",
+        "course": "RS108",
+        "availableDate": "2023-11-01",
+        "dueDate": "2023-11-15",
+        "availableUntil": "2023-11-30",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This assignment focuses on the principles of genetics, including inheritance patterns and molecular genetics."
+    },
+    {
+        "_id": "A802",
+        "title": "Evolution Quiz",
+        "course": "RS108",
+        "availableDate": "2023-11-14",
+        "dueDate": "2023-11-28",
+        "availableUntil": "2023-11-30",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This quiz tests your knowledge of evolutionary biology, including natural selection and speciation."
+    },
+    {
+        "_id": "A803",
+        "title": "Ecology Lab Report",
+        "course": "RS108",
+        "availableDate": "2023-11-15",
+        "dueDate": "2023-11-29",
+        "availableUntil": "2023-11-30",
+        "points": 100,
+        "modules": ["M1", "M2"],
+        "description": "This lab report involves the study of ecological systems, including data collection and analysis of environmental interactions."
     }
 ]
