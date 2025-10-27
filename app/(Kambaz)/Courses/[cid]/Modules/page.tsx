@@ -21,19 +21,21 @@ export default function Modules() {
   return (
     <Container>
       {!studentView && (
-        <ModulesControls
-          moduleName={moduleName}
-          setModuleName={setModuleName}
-          addModule={() => {
-            dispatch(addModule({ name: moduleName, course: cid }));
-            setModuleName("");
-          }}
-        />
+        <>
+          <ModulesControls
+            moduleName={moduleName}
+            setModuleName={setModuleName}
+            addModule={() => {
+              dispatch(addModule({ name: moduleName, course: cid }));
+              setModuleName("");
+            }}
+          />
+          <br />
+          <br />
+          <br />
+          <br />
+        </>
       )}
-      <br />
-      <br />
-      <br />
-      <br />
       <ListGroup className="rounded-0" id="wd-modules">
         {modules
           .filter((module: any) => module.course === cid)
