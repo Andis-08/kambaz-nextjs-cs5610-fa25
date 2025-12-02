@@ -3,7 +3,7 @@ export default function Classes() {
   const color = "blue";
   const dangerous = true;
   return (
-    <div>
+    <div id="wd-classes">
       <h2>Classes</h2>
       <div
         className={`${
@@ -19,3 +19,4 @@ export default function Classes() {
     </div>
   );
 }
+// 

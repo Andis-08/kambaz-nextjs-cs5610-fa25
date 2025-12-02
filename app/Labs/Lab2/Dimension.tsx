@@ -1,4 +1,4 @@
-export default function Dimensions() {
+export default function Dimension() {
   return (
     <div id="wd-css-dimensions">
       <h2>Dimension</h2>

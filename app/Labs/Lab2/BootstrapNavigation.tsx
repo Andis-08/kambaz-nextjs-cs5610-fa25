@@ -1,39 +1,49 @@
-"use client";
-import { Button, Card, Nav } from "react-bootstrap";
+import {
+  Button,
+  Card,
+  CardBody,
+  CardImg,
+  CardText,
+  CardTitle,
+  Nav,
+  NavItem,
+  NavLink,
+} from "react-bootstrap";
 
 export default function BootstrapNavigation() {
   return (
-    <div id="wd-lab2-bootstrap-navigation">
+    <div>
       <div id="wd-css-navigating-with-tabs">
         <h2>Tabs</h2>
         <Nav variant="tabs">
-          <Nav.Item>
-            <Nav.Link href="#/Labs/Lab2/Active">Active</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="#/Labs/Lab2/Link1">Link 1</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="#/Labs/Lab2/Link2">Link 2</Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link href="#/Labs/Lab2/Disabled" disabled>
+          <NavItem>
+            <NavLink href="#/Labs/Lab2/Active">Active</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#/Labs/Lab2/Link1">Link 1</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#/Labs/Lab2/Link2">Link 2</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink href="#/Labs/Lab2/Disabled" disabled>
               Disabled
-            </Nav.Link>
-          </Nav.Item>
+            </NavLink>
+          </NavItem>
         </Nav>
       </div>
+
       <div id="wd-css-navigating-with-cards">
         <h2> Cards </h2>
         <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src="/images/stacked.jpg" />
-          <Card.Body>
-            <Card.Title>Stacking Starship</Card.Title>
-            <Card.Text>
+          <CardImg variant="top" src="/images/stacked.jpg" />
+          <CardBody>
+            <CardTitle>Stacking Starship</CardTitle>
+            <CardText>
               Stacking the most powerful rocket in history. Mars or bust!
-            </Card.Text>
+            </CardText>
             <Button variant="primary">Boldly Go</Button>
-          </Card.Body>
+          </CardBody>
         </Card>
       </div>
     </div>

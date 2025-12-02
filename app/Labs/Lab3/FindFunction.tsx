@@ -5,7 +5,7 @@ export default function FindFunction() {
   const string3 = stringArray1.find((a) => a === "string3");
   return (
     <div id="wd-find-function">
-      <h4>Find Function</h4>
+      <h4>Find function</h4>
       four = {four} <br />
       string3 = {string3} <hr />
     </div>

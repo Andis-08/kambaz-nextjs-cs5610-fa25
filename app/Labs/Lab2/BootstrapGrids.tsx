@@ -1,8 +1,9 @@
-import { Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 export default function BootstrapGrids() {
   return (
-    <div id="wd-lab2-bootstrap-grids">
+    <div id="wd-bs-grids">
       <h2>Bootstrap</h2>
       <div id="wd-bs-grid-system">
         <h2>Grid system</h2>
@@ -41,6 +42,7 @@ export default function BootstrapGrids() {
           </Col>
         </Row>
       </div>
+
       <div id="wd-bs-responsive-grids">
         <h2>Responsive grid system</h2>
         <Row>
@@ -58,6 +60,7 @@ export default function BootstrapGrids() {
           </Col>
         </Row>
       </div>
+
       <div id="wd-bs-responsive-dramatic">
         <h2>Responsive grid system</h2>
         <Row>

@@ -1,18 +1,18 @@
-import BackgroundColors from "./BackgroundColors";
-import ForegroundColors from "./ForegroundColors";
-import Borders from "./Borders";
-import Padding from "./Padding";
-import Margins from "./Margins";
-import Corners from "./Corners";
-import Dimensions from "./Dimensions";
-import Positions from "./Positions";
-import Zindex from "./Zindex";
-import Float from "./Float";
-import GridLayout from "./GridLayout";
-import Flex from "./Flex";
-import ReactIcons from "./ReactIcons";
-import "./index.css";
 import { Container } from "react-bootstrap";
+import BackgroundColors from "./BackgroundColors";
+import Borders from "./Borders";
+import Corners from "./Corners";
+import Dimension from "./Dimension";
+import Flex from "./Flex";
+import Float from "./Float";
+import ForegroundColors from "./ForegroundColors";
+import GridLayout from "./GridLayout";
+import Margins from "./Margins";
+import Padding from "./Padding";
+import "./page.css";
+import Positions from "./Positions";
+import ReactIconsSampler from "./ReactIcons";
+import Zindex from "./Zindex";
 import BootstrapGrids from "./BootstrapGrids";
 import ScreenSizeLabel from "./ScreenSizeLabel";
 import BootstrapTables from "./BootstrapTables";
@@ -22,14 +22,16 @@ import BootstrapNavigation from "./BootstrapNavigation";
 
 export default function Lab2() {
   return (
-    <Container id="wd-lab2">
+    <Container>
       <h2>Lab 2 - Cascading Style Sheets</h2>
+
       <h3>Styling with the STYLE attribute</h3>
       <p>
         Style attribute allows configuring look and feel right on the element.
         Although it&apos;s very convenient it is considered bad practice and you
         should avoid using the style attribute
       </p>
+
       <div id="wd-css-id-selectors">
         <h3>ID selectors</h3>
         <p id="wd-id-selector-1">
@@ -37,22 +39,24 @@ export default function Lab2() {
           name, e.g., P, we can refer to a specific element by its ID
         </p>
         <p id="wd-id-selector-2">
-          Here&apos;s another paragraph using a different ID and a different
-          look and feel
+          Here&apos;s another paragraph using a different ID and a different look and
+          feel
         </p>
       </div>
+
       <div id="wd-css-class-selectors">
         <h3>Class selectors</h3>
 
         <p className="wd-class-selector">
-          Instead of using IDs to refer to elements, you can use an
-          element&apos;s CLASS attribute
+          Instead of using IDs to refer to elements, you can use an element&apos;s
+          CLASS attribute
         </p>
 
         <h4 className="wd-class-selector">
           This heading has same style as paragraph above
         </h4>
       </div>
+
       <div id="wd-css-document-structure">
         <div className="wd-selector-1">
           <h3>Document structure selectors</h3>
@@ -76,29 +80,44 @@ export default function Lab2() {
           </div>
         </div>
       </div>
+
       <ForegroundColors />
+
       <BackgroundColors />
+
       <Borders />
+
       <Padding />
+
       <Margins />
+
       <Corners />
-      <Dimensions />
+
+      <Dimension />
+
       <Positions />
+
       <Zindex />
+
       <Float />
+
       <GridLayout />
+
       <Flex />
-      <ReactIcons />
+
+      <ReactIconsSampler />
+
       <BootstrapGrids />
+
       <ScreenSizeLabel />
+
       <BootstrapTables />
+
       <BootstrapLists />
+
       <BootstrapForms />
+
       <BootstrapNavigation />
-      <br />
-      <br />
-      <br />
-      <br />
     </Container>
   );
 }

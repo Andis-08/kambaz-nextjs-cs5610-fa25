@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { useParams } from "next/navigation";
 export default function AddPathParameters() {
   const { a, b } = useParams();

@@ -5,6 +5,7 @@ export default function Lab1() {
     <div id="wd-lab1">
       <h2>Lab 1</h2>
       <h3>HTML Examples</h3>
+
       <div id="wd-h-tag">
         <h4>Heading Tags</h4>
         Text documents are often broken up into several sections and
@@ -19,6 +20,7 @@ export default function Lab1() {
         h3, h4, h5, and h6. Tag h1 is the largest heading and h6 is the smallest
         heading.
       </div>
+
       <div id="wd-p-tag">
         <h4>Paragraph Tag</h4>
         <p id="wd-p-1">
@@ -26,7 +28,7 @@ export default function Lab1() {
           vertical spaces to make the text easier to read. Browsers ignore
           vertical white spaces and render all the text as one single set of
           sentences. To force the browser to add vertical spacing, wrap the
-          paragraphs you want to separate with the paragraph tag
+          paragraphs you want to separate with the paragraph tag.
         </p>
         <p id="wd-p-2">
           This is the first paragraph. The paragraph tag is used to format
@@ -43,6 +45,7 @@ export default function Lab1() {
           tag to tell browsers to render the gaps.
         </p>
       </div>
+
       <div id="wd-lists">
         <h4>List Tags</h4>
         <h5>Ordered List Tag</h5>
@@ -57,11 +60,14 @@ export default function Lab1() {
           <li>Flip and cook the other side.</li>
           <li>Serve and enjoy!</li>
         </ol>
-        My favorite recipe: Gulab Jamun
+        My favorite recipe:
         <ol id="wd-your-favorite-recipe">
-          <li>Make the dough with milk powder, flour, and ghee.</li>
-          <li>Shape into small balls and fry until golden.</li>
-          <li>Soak in sugar syrup flavored with cardamom.</li>
+          <li>Boil water.</li>
+          <li>Add Maggi Noodles.</li>
+          <li>Cook until the noodles are soft.</li>
+          <li>Drain excess water.</li>
+          <li>Add seasoning and stir.</li>
+          <li>Serve and enjoy!</li>
         </ol>
         <h5>Unordered List Tag</h5>
         My favorite books (in no particular order)
@@ -74,11 +80,14 @@ export default function Lab1() {
         </ul>
         Your favorite books (in no particular order)
         <ul id="wd-your-books">
-          <li>The Phoenix Project</li>
-          <li>It Ends With Us</li>
-          <li>The Art of Explanation</li>
+          <li>WD MERN NEXT.JS</li>
+          <li>Harry Potter</li>
+          <li>Wings of Fire</li>
+          <li>Atomic Habits</li>
+          <li>The Alchemist</li>
         </ul>
       </div>
+
       <div id="wd-tables">
         <h4>Table Tag</h4>
         <table border={1} width="100%">
@@ -105,51 +114,51 @@ export default function Lab1() {
             </tr>
             <tr>
               <td>Q3</td>
-              <td>CSS</td>
-              <td>2/17/21</td>
-              <td>95</td>
+              <td>JavaScript</td>
+              <td>3/10/21</td>
+              <td>91</td>
             </tr>
             <tr>
               <td>Q4</td>
-              <td>JS</td>
-              <td>2/24/21</td>
-              <td>90</td>
+              <td>TypeScript</td>
+              <td>4/10/21</td>
+              <td>92</td>
             </tr>
             <tr>
               <td>Q5</td>
-              <td>JS</td>
-              <td>3/3/21</td>
-              <td>90</td>
+              <td>React</td>
+              <td>5/10/21</td>
+              <td>92</td>
             </tr>
             <tr>
               <td>Q6</td>
-              <td>Redux</td>
-              <td>3/10/21</td>
-              <td>90</td>
+              <td>Node.js</td>
+              <td>6/10/21</td>
+              <td>95</td>
             </tr>
             <tr>
               <td>Q7</td>
-              <td>Redux</td>
-              <td>3/17/21</td>
-              <td>90</td>
+              <td>MongoDB</td>
+              <td>7/10/21</td>
+              <td>97</td>
             </tr>
             <tr>
               <td>Q8</td>
-              <td>Node</td>
-              <td>3/24/21</td>
-              <td>90</td>
+              <td>Next.js</td>
+              <td>8/10/21</td>
+              <td>88</td>
             </tr>
             <tr>
               <td>Q9</td>
-              <td>Node</td>
-              <td>3/31/21</td>
-              <td>90</td>
+              <td>Express.js</td>
+              <td>9/10/21</td>
+              <td>89</td>
             </tr>
             <tr>
               <td>Q10</td>
-              <td>Mongo</td>
-              <td>4/7/21</td>
-              <td>90</td>
+              <td>Web Dev Tools</td>
+              <td>10/10/21</td>
+              <td>91</td>
             </tr>
           </tbody>
           <tfoot>
@@ -160,6 +169,7 @@ export default function Lab1() {
           </tfoot>
         </table>
       </div>
+
       <div id="wd-images">
         <h4>Image tag</h4>
         Loading an image from the internet: <br />
@@ -173,6 +183,7 @@ export default function Lab1() {
         <br />
         <img id="wd-teslabot" src="/images/teslabot.jpg" height="200px" />
       </div>
+
       <div id="wd-forms">
         <h4>Form Elements</h4>
         <form id="wd-text-fields">
@@ -187,7 +198,7 @@ export default function Lab1() {
           />
           <br />
           <label htmlFor="wd-text-fields-first-name">First name:</label>
-          <input type="text" title="John" id="wd-text-fields-first-name" />{" "}
+          <input type="text" title="John" id="wd-text-fields-first-name" />
           <br />
           <label htmlFor="wd-text-fields-last-name">Last name:</label>
           <input
@@ -200,24 +211,23 @@ export default function Lab1() {
           <h5>Text boxes</h5>
           <label>Biography:</label>
           <br />
-          <textarea
-            id="wd-textarea"
-            cols={30}
-            rows={10}
-            defaultValue="
+          <textarea id="wd-textarea" cols={30} rows={10} defaultValue="
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
-          ></textarea>
+            culpa qui officia deserunt mollit anim id est laborum.">
+          </textarea>
+
           <h5 id="wd-buttons">Buttons</h5>
           <Button />
           <br />
+
           <br />
           <input type="file" id="wd-file-upload" />
+
           <h5 id="wd-radio-buttons">Radio buttons</h5>
           <label>Favorite movie genre:</label>
           <br />
@@ -253,18 +263,20 @@ export default function Lab1() {
           <select id="wd-select-one-genre" defaultValue="SCIFI">
             <option value="COMEDY">Comedy</option>
             <option value="DRAMA">Drama</option>
-            <option value="SCIFI">Science Fiction</option>
+            <option value="SCIFI">
+              Science Fiction
+            </option>
             <option value="FANTASY">Fantasy</option>
           </select>
           <h5>Select many</h5>
           <label htmlFor="wd-select-many-genre"> Favorite movie genres: </label>
           <br />
-          <select multiple id="wd-select-many-genre">
-            <option value="COMEDY" selected>
+          <select multiple id="wd-select-many-genre" defaultValue={["COMEDY", "SCIFI"]}>
+            <option value="COMEDY" >
               Comedy
             </option>
             <option value="DRAMA"> Drama </option>
-            <option value="SCIFI" selected>
+            <option value="SCIFI">
               Science Fiction
             </option>
             <option value="FANTASY"> Fantasy </option>
@@ -288,24 +300,24 @@ export default function Lab1() {
           <label htmlFor="wd-text-fields-rating"> Rating: </label>
           <input
             type="range"
-            value="4"
+            defaultValue="4"
             max="5"
             placeholder="Doe"
             id="wd-text-fields-rating"
           />
           <br />
           <label htmlFor="wd-text-fields-dob"> Date of birth: </label>
-          <input type="date" value="2000-01-21" id="wd-text-fields-dob" />
+          <input type="date" defaultValue="2000-01-21" id="wd-text-fields-dob" />
+          <br />
+          <h4>Anchor tag</h4>
+          Please
+          <a href="https://www.lipsum.com" id="wd-lipsum">
+            click here
+          </a>
+          to get dummy text
           <br />
         </form>
       </div>
-      <h4>Anchor tag</h4>
-      Please&nbsp;
-      <a href="https://www.lipsum.com" id="wd-lipsum">
-        click here
-      </a>
-      &nbsp;to get dummy text
-      <br />
     </div>
   );
 }

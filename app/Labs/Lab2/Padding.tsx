@@ -4,21 +4,24 @@ export default function Padding() {
       <h2>Padding</h2>
       <div
         className="wd-padded-top-left wd-border-fat 
-       wd-border-red wd-border-solid wd-bg-color-yellow"
+                    wd-border-red wd-border-solid 
+                    wd-bg-color-yellow"
       >
-        Padded top left{" "}
+        Padded top left
       </div>
       <div
         className="wd-padded-bottom-right wd-border-fat 
-       wd-border-blue wd-border-solid wd-bg-color-yellow"
+                    wd-border-blue wd-border-solid 
+                    wd-bg-color-yellow"
       >
-        Padded bottom right{" "}
+        Padded bottom right
       </div>
       <div
         className="wd-padding-fat wd-border-fat 
-       wd-border-yellow wd-border-solid wd-bg-color-blue wd-fg-color-white"
+                    wd-border-yellow wd-border-solid 
+                    wd-bg-color-blue wd-fg-color-white"
       >
-        Padded all around{" "}
+        Padded all around
       </div>
     </div>
   );

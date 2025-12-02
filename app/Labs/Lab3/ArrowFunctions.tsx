@@ -7,7 +7,7 @@ export default function ArrowFunctions() {
   console.log(threeMinusOne);
   return (
     <div id="wd-arrow-functions">
-      <h5>New ES6 arrow functions</h5>
+      <h4>New ES6 arrow functions</h4>
       threeMinusOne = {threeMinusOne} <br />
       subtract(3, 1) = {subtract(3, 1)} <hr />
     </div>

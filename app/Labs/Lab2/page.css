@@ -1,3 +1,10 @@
+/* This makes all the <p> elements have a green background and white text */
+/* p {
+   background-color: green;
+   color: white;
+} */
+
+/* use id of the element to style it specifically */
 p#wd-id-selector-1 {
   background-color: red;
   color: white;
@@ -6,10 +13,13 @@ p#wd-id-selector-2 {
   background-color: yellow;
   color: black;
 }
+
+/* use class selectors */
 .wd-class-selector {
   background-color: yellow;
   color: blue;
 }
+
 .wd-selector-1 .wd-selector-3 {
   background-color: red;
   color: white;
@@ -18,6 +28,8 @@ p#wd-id-selector-2 {
   background-color: yellow;
   color: blue;
 }
+
+/* foreground colors */
 .wd-fg-color-black {
   color: black;
 }
@@ -33,6 +45,8 @@ p#wd-id-selector-2 {
 .wd-fg-color-green {
   color: green;
 }
+
+/* background colors */
 .wd-bg-color-yellow {
   background-color: #ffff07;
 }
@@ -48,6 +62,8 @@ p#wd-id-selector-2 {
 .wd-bg-color-gray {
   background-color: lightgray;
 }
+
+/* borders */
 .wd-border-fat {
   border-width: 20px 30px 20px 30px;
 }
@@ -69,6 +85,8 @@ p#wd-id-selector-2 {
 .wd-border-blue {
   border-color: #7070ff;
 }
+
+/* padding */
 .wd-padded-top-left {
   padding-top: 50px;
   padding-left: 50px;
@@ -80,6 +98,8 @@ p#wd-id-selector-2 {
 .wd-padding-fat {
   padding: 50px;
 }
+
+/* margins */
 .wd-margin-bottom {
   margin-bottom: 50px;
 }
@@ -90,6 +110,8 @@ p#wd-id-selector-2 {
 .wd-margin-all-around {
   margin: 30px;
 }
+
+/* corners */
 .wd-rounded-corners-top {
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -104,6 +126,8 @@ p#wd-id-selector-2 {
 .wd-rounded-corners-inline {
   border-radius: 30px 0px 20px 50px;
 }
+
+/* dimensions */
 .wd-dimension-portrait {
   width: 75px;
   height: 100px;
@@ -116,6 +140,8 @@ p#wd-id-selector-2 {
   width: 75px;
   height: 75px;
 }
+
+/* relative position */
 .wd-pos-relative-nudge-up-right {
   position: relative;
   bottom: 30px;
@@ -129,6 +155,8 @@ p#wd-id-selector-2 {
 .wd-pos-relative {
   position: relative;
 }
+
+/* absolute position */
 .wd-pos-absolute-10-10 {
   position: absolute;
   top: 10px;
@@ -144,14 +172,20 @@ p#wd-id-selector-2 {
   top: 20px;
   left: 120px;
 }
+
+/* fixed position */
 .wd-pos-fixed {
   position: fixed;
   right: 0px;
   bottom: 50%;
 }
+
+/* z-index */
 .wd-zindex-bring-to-front {
   z-index: 10;
 }
+
+/* float */
 .wd-float-left {
   float: left;
   height: 100px;
@@ -163,6 +197,8 @@ p#wd-id-selector-2 {
 .wd-float-done {
   clear: both;
 }
+
+/* grid layout */
 .wd-grid-row {
   clear: both;
 }
@@ -190,6 +226,8 @@ p#wd-id-selector-2 {
   width: 20%;
   float: left;
 }
+
+/* flex */
 .wd-flex-row-container {
   display: flex;
   flex-direction: row;
@@ -200,6 +238,8 @@ p#wd-id-selector-2 {
 .wd-width-75px {
   width: 75px;
 }
+
+/* screen size label */
 #wd-screen-size-label {
   position: fixed;
   bottom: 0;
